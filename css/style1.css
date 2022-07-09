@@ -30,7 +30,9 @@ body{
   background: #f0b992;
   box-shadow: 3px 2px 15px #424242;
 }
-
+.navbar li a{
+  color: #a0704f;
+}
 .navbar-container{
   display: flex;
   justify-content: space-between;
@@ -52,22 +54,24 @@ body{
   list-style: none;
   margin-left: 40px;
   font-size: 1.3rem;
+   
+
 }
 
 .navbar a{
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-weight: 400;
-  transition: color 0.3s ease-in;
+  font-weight: 500;
+  transition: color 0.3s ease-;
   padding: 12px 5px 12px 5px;
-
+ 
 }
 
 .navbar a:hover{
   /* background-color: #72110f; */
-  border-bottom: 2px solid white;
-
-  transition: 0.3s;
+  border-bottom: 2px solid #f5f1ee;
+  color: #da224a;
+    transition: 0.3s;
 
 }
 
