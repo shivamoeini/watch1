@@ -28,7 +28,7 @@ body{
   opacity: 0.85;
   z-index: 100;
   background: #f0b992;
-
+  box-shadow: 3px 2px 15px #424242;
 }
 
 .navbar-container{
@@ -57,13 +57,18 @@ body{
 .navbar a{
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
- 
+  font-weight: 400;
+  transition: color 0.3s ease-in;
+  padding: 12px 5px 12px 5px;
+
 }
 
 .navbar a:hover{
-  color: #72110f;
+  /* background-color: #72110f; */
+  border-bottom: 2px solid white;
+
+  transition: 0.3s;
+
 }
 
 @media (max-width: 768px){
